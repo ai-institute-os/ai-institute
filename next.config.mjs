@@ -1,6 +1,5 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   async headers() {
     const allowedOrigin = process.env.ALLOWED_ORIGIN ?? "https://aiselect.dk";
     return [
