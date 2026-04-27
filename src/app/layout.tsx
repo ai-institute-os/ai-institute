@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AISelect — AI-drevet CV-screening",
-  description: "Screen kandidater hurtigere og mere præcist med AI.",
+  title: "AISelect — AI-implementering til din virksomhed",
+  description: "Implementér AI i din virksomhed baseret på din AIScore-rapport. Konkrete løsninger skræddersyet til dine processer.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
